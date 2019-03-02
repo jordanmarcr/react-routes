@@ -16,7 +16,7 @@ class Home extends Component{
                 <li><Link to="/guilty">Guilty</Link></li>
                 <li><Link to="/sleepy">Sleepy</Link></li>
               </ul>
-            <Route exact path="/" component={Home} />
+
             <Route path="/happy" component={Happy} />
             <Route path="/guilty" component={Guilty} />
             <Route path="/sleepy" component={Sleepy} />
